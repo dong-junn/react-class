@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import StateBasic from "./component/StateBasic";
+import StateParent from "./component/week10/3/StateParent";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StateBasic init={0}/>,
+  <StateParent/>
 );
 
 // If you want to start measuring performance in your app, pass a function
