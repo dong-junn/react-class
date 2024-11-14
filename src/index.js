@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import TodoList from "./component/week10/5pointHomework/json_todo";
+import StyledBasic from "./component/week11/1/StyledBasic";
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <TodoList/>
+  <StyledBasic/>
 );
 
 // If you want to start measuring performance in your app, pass a function
