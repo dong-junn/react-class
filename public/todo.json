@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "text": "리액트 공부하기",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "text": "운동하기",
+    "completed": true
+  },
+  {
+    "id": 3,
+    "text": "스프링 공부하기",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "text": "스프링 공부하지 않기",
+    "completed": false
+  }
+]

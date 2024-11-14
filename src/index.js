@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import StateForm from "./component/week10/4/StateForm";
+import TodoList from "./component/week10/5pointHomework/json_todo";
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StateForm/>
+  <TodoList/>
 );
 
 // If you want to start measuring performance in your app, pass a function

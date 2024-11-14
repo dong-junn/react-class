@@ -1,17 +1,14 @@
 [
   {
     "id": 1,
-    "userName": "홍길동",
-    "email": "a123@jeju.ac.kr"
+    "title": "리액트 공부하기",
+    "created": "2024-11-14T10:00:00Z",
+    "isDone": false
   },
   {
     "id": 2,
-    "userName": "임꺽정",
-    "email": "a123@jeju.ac.kr"
-  },
-  {
-    "id": 3,
-    "userName": "홍길동",
-    "email": "a123@jeju.ac.kr"
+    "title": "운동하기",
+    "created": "2024-11-14T11:00:00Z",
+    "isDone": false
   }
 ]
