@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from "react-router-dom";
-import {routesLink} from "./component/week13/6/routesLink";
+import routesLink from "./component/week13/7/routesLink";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
