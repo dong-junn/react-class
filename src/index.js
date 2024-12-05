@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import HookContext from "./component/week12/6/HookContext";
-
-
+import {RouterProvider} from "react-router-dom";
+import routesBasic from "./component/week13/5/routesBasic";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HookContext/>
+  <RouterProvider router={routesBasic}/>
 );
 
 // If you want to start measuring performance in your app, pass a function
