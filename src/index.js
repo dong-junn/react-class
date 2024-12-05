@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {RouterProvider} from "react-router-dom";
-import routesBasic from "./component/week13/5/routesBasic";
+import { RouterProvider } from "react-router-dom";
+import {routesLink} from "./component/week13/6/routesLink";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={routesBasic}/>
+  <RouterProvider router={ routesLink }/>
 );
 
 // If you want to start measuring performance in your app, pass a function
