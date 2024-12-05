@@ -13,7 +13,7 @@ export function HookContextChildGrand() {
     const { title, lang } = useContext(MyAppContext);
     return (
         <div id="c_child_grand">
-            {title} {lang}
+            {title}({lang})
         </div>
     );
 }
